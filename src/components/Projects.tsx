@@ -3,7 +3,7 @@ import { ExternalLink } from 'lucide-react';
 const projects = [
     {
         id: 'success-call',
-        title: 'Success Call AP',
+        title: 'Success Call',
         subtitle: 'Prayer Times App for Sri Lanka Muslims',
         description: 'A comprehensive mobile and web application providing precise prayer times for every zone in Sri Lanka. Features include ACJU Hijri calendar, multi-language support (English, Sinhala, Tamil, Arabic), offline functionality, auto-silence during prayers, home widgets, and customizable Iqamah times.',
         image: '/projects/success-call.png',
@@ -91,7 +91,7 @@ const projects = [
 
 export function Projects() {
     return (
-        <section id="projects" className="py-16 px-4">
+        <section id="projects" className="py-5 sm:py-16 px-4">
             <div className="max-w-6xl mx-auto">
                 <header className="text-center mb-8">
                     <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 dark:text-white">My Work & Contributions</h2>

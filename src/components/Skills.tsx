@@ -67,7 +67,7 @@ export function Skills() {
   const filtered = filter === 'all' ? skillCategories : skillCategories.filter((c) => c.id === filter);
 
   return (
-    <section id="skills" className="py-16 px-4">
+    <section id="skills" className="py-5 sm:py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
           <div>
