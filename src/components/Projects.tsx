@@ -2,6 +2,19 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
     {
+        id: 'success-call',
+        title: 'Success Call AP',
+        subtitle: 'Prayer Times App for Sri Lanka Muslims',
+        description: 'A comprehensive mobile and web application providing precise prayer times for every zone in Sri Lanka. Features include ACJU Hijri calendar, multi-language support (English, Sinhala, Tamil, Arabic), offline functionality, auto-silence during prayers, home widgets, and customizable Iqamah times.',
+        image: '/projects/success-call.png',
+        role: 'Developer',
+        tags: ['Mobile App', 'Web App', 'Prayer Times', 'Sri Lanka', 'Hijri Calendar', 'Offline', 'Multi-language'],
+        links: [
+            { label: 'Android App', href: 'https://play.google.com/store/apps/details?id=me.musab.successcall' },
+            { label: 'Web Version', href: 'https://successcall.github.io' }
+        ],
+    },
+    {
         id: 'checklogix',
         title: 'CheckLogix',
         subtitle: 'Checklogix, documentation software, compliance management, log management, process documentation',
@@ -130,3 +143,4 @@ export function Projects() {
         </section>
     );
 }
+
